@@ -1,0 +1,89 @@
+/* ProductCard.css */
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+
+  
+  background-color: #fff;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-name {
+  margin: 16px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-details {
+  padding: 16px;
+}
+
+.product-price {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e91e63;
+  margin-bottom: 8px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.input-container input {
+  width: 60px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.add-to-cart-button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+  background-color: #c2185b;
+}
+
+.product-details span {
+  display: block;
+  font-size: 1rem;
+  color: #555;
+}
+
+.product-details .MuiSvgIcon-root {
+  vertical-align: middle;
+  color: #777;
+  margin-right: 4px;
+}
+
+.product-details br {
+  display: none;
+}
